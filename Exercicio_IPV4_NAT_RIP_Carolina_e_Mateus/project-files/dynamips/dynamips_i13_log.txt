@@ -1,0 +1,18 @@
+Nov 03 19:07:28.128 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 03 19:07:28.129 HYPERVISOR: Started on IP = localhost, TCP port = 53632.
+Nov 03 19:07:28.626 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 03 19:07:28.626 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips 
+Nov 03 19:07:28.626 GENERAL: working_dir=C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips
+Nov 03 19:07:28.626 HYPERVISOR: exec_cmd: ethsw create Switch4 
+Nov 03 19:07:32.611 HYPERVISOR: exec_cmd: nio create_udp udp-54111851-799e-4fef-89d8-cd3ad2df8eb2 10047 127.0.0.1 10046 
+Nov 03 19:07:32.612 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-54111851-799e-4fef-89d8-cd3ad2df8eb2 
+Nov 03 19:07:32.615 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-54111851-799e-4fef-89d8-cd3ad2df8eb2 1 
+Nov 03 19:07:33.269 HYPERVISOR: exec_cmd: nio create_udp udp-0818fbdb-4b2c-42d1-955a-d760de008e14 10076 127.0.0.1 10077 
+Nov 03 19:07:33.270 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-0818fbdb-4b2c-42d1-955a-d760de008e14 
+Nov 03 19:07:33.277 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-0818fbdb-4b2c-42d1-955a-d760de008e14 1 
+Nov 03 19:07:33.318 HYPERVISOR: exec_cmd: nio create_udp udp-5b9c2a62-c23b-41a2-8399-d233371a752f 10078 127.0.0.1 10079 
+Nov 03 19:07:33.318 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-5b9c2a62-c23b-41a2-8399-d233371a752f 
+Nov 03 19:07:33.339 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-5b9c2a62-c23b-41a2-8399-d233371a752f 1 
+Nov 03 19:07:33.382 HYPERVISOR: exec_cmd: nio create_udp udp-a993f1d6-7482-4546-b3e8-9d69d6a76ed6 10080 127.0.0.1 10081 
+Nov 03 19:07:33.382 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-a993f1d6-7482-4546-b3e8-9d69d6a76ed6 
+Nov 03 19:07:33.403 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-a993f1d6-7482-4546-b3e8-9d69d6a76ed6 1 

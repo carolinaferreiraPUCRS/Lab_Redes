@@ -1,0 +1,46 @@
+Nov 03 16:03:26.234 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 03 16:03:26.236 HYPERVISOR: Started on IP = localhost, TCP port = 54855.
+Nov 03 16:03:26.730 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 03 16:03:26.730 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips 
+Nov 03 16:03:26.730 GENERAL: working_dir=C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips
+Nov 03 16:03:26.731 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips\51ba1932-b534-481a-ae8b-3580e413b06d 
+Nov 03 16:03:26.731 GENERAL: working_dir=C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips\51ba1932-b534-481a-ae8b-3580e413b06d
+Nov 03 16:03:26.731 HYPERVISOR: exec_cmd: vm create R3 3 c3745 
+Nov 03 16:03:26.732 VM: VM R3 created.
+Nov 03 16:03:26.733 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Nov 03 16:03:26.733 HYPERVISOR: exec_cmd: c3745 get_mac_addr R3 
+Nov 03 16:03:26.733 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Usuário/GNS3/images/IOS/c3745-adventerprisek.124-25d.image 
+Nov 03 16:03:26.734 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Nov 03 16:03:26.735 HYPERVISOR: exec_cmd: vm set_ram R3 256 
+Nov 03 16:03:26.735 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Nov 03 16:03:26.735 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Nov 03 16:03:26.736 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 03 16:03:26.736 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 NM-1FE-TX 
+Nov 03 16:03:26.736 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 03 16:03:26.736 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 NM-4T 
+Nov 03 16:03:26.737 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 03 16:03:26.737 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 16 WIC-1T 
+Nov 03 16:03:26.737 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 03 16:03:26.737 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 32 WIC-1T 
+Nov 03 16:03:26.782 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Usuário/GNS3/images/IOS/c3745-adventerprisek.124-25d.image 
+Nov 03 16:03:35.103 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Usuário/GNS3/images/IOS/c3745-adventerprisek.124-25d.image 
+Nov 03 16:06:54.229 HYPERVISOR: exec_cmd: vm create Ghost 0 c3745 
+Nov 03 16:06:54.231 VM: VM Ghost created.
+Nov 03 16:06:54.232 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/Usuário/GNS3/images/IOS/c3745-adventerprisek.124-25d.image 
+Nov 03 16:06:54.232 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 03 16:06:54.233 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips\c3745-adventerprisek.124-25d.image-256.ghost 
+Nov 03 16:06:54.233 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Nov 03 16:06:54.234 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 03 16:06:54.234 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Nov 03 16:06:54.234 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 03 16:06:54.672 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 03 16:06:54.674 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 03 16:06:54.926 VM: VM Ghost shutdown.
+Nov 03 16:06:54.927 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Nov 03 16:06:54.929 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 03 16:06:54.929 VM: VM Ghost destroyed.
+Nov 03 16:06:54.935 HYPERVISOR: exec_cmd: vm set_ghost_status R3 2 
+Nov 03 16:06:54.935 HYPERVISOR: exec_cmd: vm set_ghost_file R3 C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips\c3745-adventerprisek.124-25d.image-256.ghost 
+Nov 03 16:06:54.936 HYPERVISOR: exec_cmd: vm get_status R3 
+Nov 03 16:06:54.945 HYPERVISOR: exec_cmd: vm set_config R3 configs\i3_startup-config.cfg 
+Nov 03 16:06:54.946 HYPERVISOR: exec_cmd: vm start R3 

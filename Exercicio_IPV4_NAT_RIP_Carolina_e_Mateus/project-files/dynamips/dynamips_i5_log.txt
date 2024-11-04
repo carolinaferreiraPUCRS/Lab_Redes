@@ -1,0 +1,38 @@
+Nov 03 19:07:24.608 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 03 19:07:24.608 HYPERVISOR: Started on IP = localhost, TCP port = 53607.
+Nov 03 19:07:24.609 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 03 19:07:24.609 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips 
+Nov 03 19:07:24.609 GENERAL: working_dir=C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips
+Nov 03 19:07:24.610 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips\3220c748-98b9-4b97-a6cc-ac492eafa7bc 
+Nov 03 19:07:24.611 GENERAL: working_dir=C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips\3220c748-98b9-4b97-a6cc-ac492eafa7bc
+Nov 03 19:07:24.611 HYPERVISOR: exec_cmd: vm create RedeINTERNA 5 c3745 
+Nov 03 19:07:24.612 VM: VM RedeINTERNA created.
+Nov 03 19:07:24.613 HYPERVISOR: exec_cmd: vm set_con_tcp_port RedeINTERNA 5004 
+Nov 03 19:07:24.613 HYPERVISOR: exec_cmd: c3745 get_mac_addr RedeINTERNA 
+Nov 03 19:07:24.613 HYPERVISOR: exec_cmd: vm set_disk0 RedeINTERNA 0 
+Nov 03 19:07:24.614 HYPERVISOR: exec_cmd: vm set_exec_area RedeINTERNA 64 
+Nov 03 19:07:24.614 HYPERVISOR: exec_cmd: vm set_ios RedeINTERNA C:/Users/Usuário/GNS3/images/IOS/c3745-adventerprisek.124-25d.image 
+Nov 03 19:07:24.615 HYPERVISOR: exec_cmd: c3745 set_mac_addr RedeINTERNA c405.5550.0000 
+Nov 03 19:07:24.615 HYPERVISOR: exec_cmd: vm set_nvram RedeINTERNA 256 
+Nov 03 19:07:24.615 HYPERVISOR: exec_cmd: vm set_ram RedeINTERNA 256 
+Nov 03 19:07:24.616 HYPERVISOR: exec_cmd: vm get_status RedeINTERNA 
+Nov 03 19:07:24.616 HYPERVISOR: exec_cmd: vm slot_add_binding RedeINTERNA 1 0 NM-1FE-TX 
+Nov 03 19:07:24.616 HYPERVISOR: exec_cmd: vm get_status RedeINTERNA 
+Nov 03 19:07:24.616 HYPERVISOR: exec_cmd: vm slot_add_binding RedeINTERNA 2 0 NM-4T 
+Nov 03 19:07:24.617 HYPERVISOR: exec_cmd: vm get_status RedeINTERNA 
+Nov 03 19:07:24.617 HYPERVISOR: exec_cmd: vm slot_add_binding RedeINTERNA 0 16 WIC-1T 
+Nov 03 19:07:24.617 HYPERVISOR: exec_cmd: vm get_status RedeINTERNA 
+Nov 03 19:07:24.617 HYPERVISOR: exec_cmd: vm slot_add_binding RedeINTERNA 0 32 WIC-1T 
+Nov 03 19:07:30.124 HYPERVISOR: exec_cmd: nio create_udp udp-cd2c441c-cb27-4d21-ab45-1ba38472d441 10004 127.0.0.1 10005 
+Nov 03 19:07:30.388 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RedeINTERNA 0 0 udp-cd2c441c-cb27-4d21-ab45-1ba38472d441 
+Nov 03 19:07:30.389 HYPERVISOR: exec_cmd: vm get_status RedeINTERNA 
+Nov 03 19:07:30.422 HYPERVISOR: exec_cmd: nio create_udp udp-37dd58d4-0d19-47d3-8468-403f95d7b26f 10008 127.0.0.1 10009 
+Nov 03 19:07:30.425 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RedeINTERNA 0 1 udp-37dd58d4-0d19-47d3-8468-403f95d7b26f 
+Nov 03 19:07:30.425 HYPERVISOR: exec_cmd: vm get_status RedeINTERNA 
+Nov 03 19:07:47.468 HYPERVISOR: exec_cmd: vm set_ghost_status RedeINTERNA 2 
+Nov 03 19:07:47.469 HYPERVISOR: exec_cmd: vm set_ghost_file RedeINTERNA C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips\c3745-adventerprisek.124-25d.image-256.ghost 
+Nov 03 19:07:47.469 HYPERVISOR: exec_cmd: vm get_status RedeINTERNA 
+Nov 03 19:07:47.481 HYPERVISOR: exec_cmd: vm set_config RedeINTERNA configs\i5_startup-config.cfg 
+Nov 03 19:07:47.483 HYPERVISOR: exec_cmd: vm start RedeINTERNA 
+Nov 03 21:06:20.735 HYPERVISOR: exec_cmd: vm extract_config RedeINTERNA 
+Nov 03 21:06:20.738 HYPERVISOR: exec_cmd: vm extract_config RedeINTERNA 

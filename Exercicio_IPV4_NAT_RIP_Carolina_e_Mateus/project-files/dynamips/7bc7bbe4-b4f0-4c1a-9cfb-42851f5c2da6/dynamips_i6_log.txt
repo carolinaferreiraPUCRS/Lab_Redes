@@ -1,0 +1,31 @@
+Nov 03 16:03:29.624 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 03 16:03:29.625 HYPERVISOR: Started on IP = localhost, TCP port = 54868.
+Nov 03 16:03:30.115 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 03 16:03:30.115 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips 
+Nov 03 16:03:30.115 GENERAL: working_dir=C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips
+Nov 03 16:03:30.116 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips\3220c748-98b9-4b97-a6cc-ac492eafa7bc 
+Nov 03 16:03:30.116 GENERAL: working_dir=C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips\3220c748-98b9-4b97-a6cc-ac492eafa7bc
+Nov 03 16:03:30.116 HYPERVISOR: exec_cmd: vm create R5 5 c3745 
+Nov 03 16:03:30.118 VM: VM R5 created.
+Nov 03 16:03:30.119 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5004 
+Nov 03 16:03:30.119 HYPERVISOR: exec_cmd: c3745 get_mac_addr R5 
+Nov 03 16:03:30.120 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/Usuário/GNS3/images/IOS/c3745-adventerprisek.124-25d.image 
+Nov 03 16:03:30.120 HYPERVISOR: exec_cmd: vm set_exec_area R5 64 
+Nov 03 16:03:30.120 HYPERVISOR: exec_cmd: vm set_ram R5 256 
+Nov 03 16:03:30.120 HYPERVISOR: exec_cmd: vm set_nvram R5 256 
+Nov 03 16:03:30.121 HYPERVISOR: exec_cmd: vm set_disk0 R5 0 
+Nov 03 16:03:30.121 HYPERVISOR: exec_cmd: vm get_status R5 
+Nov 03 16:03:30.121 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 NM-1FE-TX 
+Nov 03 16:03:30.122 HYPERVISOR: exec_cmd: vm get_status R5 
+Nov 03 16:03:30.122 HYPERVISOR: exec_cmd: vm slot_add_binding R5 2 0 NM-4T 
+Nov 03 16:03:30.122 HYPERVISOR: exec_cmd: vm get_status R5 
+Nov 03 16:03:30.122 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 16 WIC-1T 
+Nov 03 16:03:30.123 HYPERVISOR: exec_cmd: vm get_status R5 
+Nov 03 16:03:30.123 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 32 WIC-1T 
+Nov 03 16:03:30.185 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/Usuário/GNS3/images/IOS/c3745-adventerprisek.124-25d.image 
+Nov 03 16:03:39.538 HYPERVISOR: exec_cmd: vm set_ios R5 C:/Users/Usuário/GNS3/images/IOS/c3745-adventerprisek.124-25d.image 
+Nov 03 16:06:55.358 HYPERVISOR: exec_cmd: vm set_ghost_status R5 2 
+Nov 03 16:06:55.359 HYPERVISOR: exec_cmd: vm set_ghost_file R5 C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips\c3745-adventerprisek.124-25d.image-256.ghost 
+Nov 03 16:06:55.359 HYPERVISOR: exec_cmd: vm get_status R5 
+Nov 03 16:06:55.378 HYPERVISOR: exec_cmd: vm set_config R5 configs\i5_startup-config.cfg 
+Nov 03 16:06:55.380 HYPERVISOR: exec_cmd: vm start R5 

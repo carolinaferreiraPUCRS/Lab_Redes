@@ -1,0 +1,35 @@
+Nov 03 19:07:24.672 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 03 19:07:24.672 HYPERVISOR: Started on IP = localhost, TCP port = 53610.
+Nov 03 19:07:24.672 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 03 19:07:24.673 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips 
+Nov 03 19:07:24.673 GENERAL: working_dir=C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips
+Nov 03 19:07:24.674 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips\7bc7bbe4-b4f0-4c1a-9cfb-42851f5c2da6 
+Nov 03 19:07:24.674 GENERAL: working_dir=C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips\7bc7bbe4-b4f0-4c1a-9cfb-42851f5c2da6
+Nov 03 19:07:24.674 HYPERVISOR: exec_cmd: vm create RedeEXTERNA 6 c3745 
+Nov 03 19:07:24.675 VM: VM RedeEXTERNA created.
+Nov 03 19:07:24.675 HYPERVISOR: exec_cmd: vm set_con_tcp_port RedeEXTERNA 5005 
+Nov 03 19:07:24.675 HYPERVISOR: exec_cmd: c3745 get_mac_addr RedeEXTERNA 
+Nov 03 19:07:24.676 HYPERVISOR: exec_cmd: vm set_disk0 RedeEXTERNA 0 
+Nov 03 19:07:24.676 HYPERVISOR: exec_cmd: vm set_exec_area RedeEXTERNA 64 
+Nov 03 19:07:24.677 HYPERVISOR: exec_cmd: vm set_ios RedeEXTERNA C:/Users/Usuário/GNS3/images/IOS/c3745-adventerprisek.124-25d.image 
+Nov 03 19:07:24.677 HYPERVISOR: exec_cmd: c3745 set_mac_addr RedeEXTERNA c406.3728.0000 
+Nov 03 19:07:24.678 HYPERVISOR: exec_cmd: vm set_nvram RedeEXTERNA 256 
+Nov 03 19:07:24.678 HYPERVISOR: exec_cmd: vm set_ram RedeEXTERNA 256 
+Nov 03 19:07:24.678 HYPERVISOR: exec_cmd: vm get_status RedeEXTERNA 
+Nov 03 19:07:24.679 HYPERVISOR: exec_cmd: vm slot_add_binding RedeEXTERNA 1 0 NM-1FE-TX 
+Nov 03 19:07:24.679 HYPERVISOR: exec_cmd: vm get_status RedeEXTERNA 
+Nov 03 19:07:24.679 HYPERVISOR: exec_cmd: vm slot_add_binding RedeEXTERNA 2 0 NM-4T 
+Nov 03 19:07:24.679 HYPERVISOR: exec_cmd: vm get_status RedeEXTERNA 
+Nov 03 19:07:24.680 HYPERVISOR: exec_cmd: vm slot_add_binding RedeEXTERNA 0 16 WIC-1T 
+Nov 03 19:07:24.680 HYPERVISOR: exec_cmd: vm get_status RedeEXTERNA 
+Nov 03 19:07:24.680 HYPERVISOR: exec_cmd: vm slot_add_binding RedeEXTERNA 0 32 WIC-1T 
+Nov 03 19:07:29.858 HYPERVISOR: exec_cmd: nio create_udp udp-b7c3e71d-b2b7-4cd4-8494-a40e62f949e6 10002 127.0.0.1 10003 
+Nov 03 19:07:30.119 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RedeEXTERNA 0 0 udp-b7c3e71d-b2b7-4cd4-8494-a40e62f949e6 
+Nov 03 19:07:30.120 HYPERVISOR: exec_cmd: vm get_status RedeEXTERNA 
+Nov 03 19:07:47.470 HYPERVISOR: exec_cmd: vm set_ghost_status RedeEXTERNA 2 
+Nov 03 19:07:47.483 HYPERVISOR: exec_cmd: vm set_ghost_file RedeEXTERNA C:\Users\Usuário\Documents\2024\Exercicio_IPV4_NAT_RIP_Carolina_e_Mateus\project-files\dynamips\c3745-adventerprisek.124-25d.image-256.ghost 
+Nov 03 19:07:47.483 HYPERVISOR: exec_cmd: vm get_status RedeEXTERNA 
+Nov 03 19:07:47.493 HYPERVISOR: exec_cmd: vm set_config RedeEXTERNA configs\i6_startup-config.cfg 
+Nov 03 19:07:47.493 HYPERVISOR: exec_cmd: vm start RedeEXTERNA 
+Nov 03 21:06:20.835 HYPERVISOR: exec_cmd: vm extract_config RedeEXTERNA 
+Nov 03 21:06:20.838 HYPERVISOR: exec_cmd: vm extract_config RedeEXTERNA 
